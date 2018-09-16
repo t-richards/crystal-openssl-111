@@ -2,3 +2,6 @@ language: crystal
 os:
   - linux
   - osx
+script:
+  - openssl version
+  - crystal spec

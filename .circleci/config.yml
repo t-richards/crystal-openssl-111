@@ -1,0 +1,27 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: base/archlinux:2018.09.01
+    steps:
+      - checkout
+
+      - run:
+          name: Install system deps
+          command: pacman -Syy --noconfirm crystal shards gcc
+
+      - run:
+          name: Crystal version
+          command: crystal --version
+
+      - run:
+          name: Shards version
+          command: shards --version
+
+      - run:
+          name: OpenSSL version
+          command: openssl version
+
+      - run:
+          name: Run tests
+          command: crystal spec
