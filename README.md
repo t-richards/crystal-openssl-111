@@ -13,3 +13,7 @@ Breakage appears with the following combination:
 ## Circle CI (new OpenSSL)
 
 [![CircleCI](https://circleci.com/gh/t-richards/crystal-https.svg?style=svg)](https://circleci.com/gh/t-richards/crystal-https)
+
+## carc.in (new OpenSSL)
+
+ - https://carc.in/#/r/50pp
