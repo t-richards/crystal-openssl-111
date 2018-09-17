@@ -15,11 +15,11 @@ $ crystal spec
 
 ### Travis CI (old OpenSSL)
 
-[![Build Status](https://travis-ci.com/t-richards/crystal-https.svg?branch=master)](https://travis-ci.com/t-richards/crystal-https)
+[![Build Status](https://travis-ci.com/t-richards/crystal-openssl-111.svg?branch=master)](https://travis-ci.com/t-richards/crystal-openssl-111)
 
 ### Circle CI (new OpenSSL)
 
-[![CircleCI](https://circleci.com/gh/t-richards/crystal-https.svg?style=svg)](https://circleci.com/gh/t-richards/crystal-https)
+[![CircleCI](https://circleci.com/gh/t-richards/crystal-openssl-111.svg?style=svg)](https://circleci.com/gh/t-richards/crystal-openssl-111)
 
 ### carc.in (new OpenSSL)
 
