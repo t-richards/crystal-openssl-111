@@ -4,11 +4,11 @@ jobs:
     docker:
       - image: base/archlinux:2018.09.01
     steps:
-      - checkout
-
       - run:
           name: Install system deps
-          command: pacman -Syy --noconfirm crystal shards base-devel openssl
+          command: pacman -Syy --noconfirm base-devel crystal git openssh openssl shards 
+
+      - checkout
 
       - run:
           name: Crystal version
